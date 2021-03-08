@@ -173,10 +173,6 @@ main {
 }
 
 /* feature first portfolio item */
-.flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
-}
 
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);

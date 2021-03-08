@@ -87,14 +87,11 @@ main {
 }
 
 .hero-banner {
-  background: rgb(68, 88, 120);
+  
   background-image: url("../images/Background.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
-  background-blend-mode: soft-light;
-  min-height: 30vh;
-  color: var(--light);
-  padding: 2% 6%;
+  min-height: 40vh;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

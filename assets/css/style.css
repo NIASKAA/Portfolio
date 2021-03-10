@@ -155,8 +155,8 @@ main {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
   color: var(--tertiary);
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 200px;
+  max-height: 200px;
   flex-basis: calc(50% - 1em);
   align-items: flex-end;
   padding: 0 0 20px 0;

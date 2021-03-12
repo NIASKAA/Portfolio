@@ -223,7 +223,7 @@ main {
 }
 
 .scratch {
-  background-image: url("../images/02-portfolio-3.jpg");
+  background-image: url("../images/scratch.png");
 }
 
 .discord-bot {
@@ -264,6 +264,11 @@ main {
     font-size: 7vw;
   }
 }
+
+  .license {
+    
+    text-align: center;
+  }
 
 @media screen and (max-width: 768px) {
   .flex-item,

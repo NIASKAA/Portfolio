@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-/* brand color palette */
 :root {
   --primary: rgba(68, 88, 119, 1);
   --secondary: rgba(146, 204, 206, 1);
@@ -169,8 +168,6 @@ main {
   background-blend-mode: soft-light;
 }
 
-/* feature first portfolio item */
-
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -230,8 +227,6 @@ main {
   background-image: url("../images/Discordbot.jpg");
 }
 
-/* end portfolio project images */
-
 @media screen and (max-width: 980px) {
   header {
     padding: 0 0 10px 0;
@@ -266,7 +261,7 @@ main {
 }
 
   .license {
-    
+
     text-align: center;
   }
 

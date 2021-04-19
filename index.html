@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html class="has-navbar-fixed-top">
 <html lang="en">
 
 <head>
@@ -7,89 +7,167 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>NIASKA: Full Stack Developer Portfolio</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet'>
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header>
-    <h1>Alan/NIASKA</h1>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#work">Projects</a>
-      <a href="#contact">Contact Me</a>
-    </nav>
-  </header>
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div id="navbarHeader" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Alan/NIASKA
+        </a>
+      </div>
+    </div>
 
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-link">
+            My Intro
+          </a>
+          <a class="button is-link">
+            My Skills
+          </a>
+          <a class="button is-link">
+            Creation
+          </a>
+          <a class="button is-link">
+            Contact Me!
+          </a>
+          <a class="button is-link">
+            My Github
+          </a>
+          <a class="button is-link">
+            Other
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
   <!-- background photo -->
-  <section class="hero-banner">
-    <div>
-      <h2>The Adventure of My Neverending Coding Journey</h2>
+  <section class="hero is-large is-info">
+    <div class="hero-specs">
+      <div class="hero-transparent">
+        <p class="title-font">
+          Hi! I'm Alan and I'm a full-stack developer. 
+        </p>
+      </div>
     </div>
   </section>
 
-  <main class="page-wrapper">
+  <main class="main-body">
     <!-- quick about info -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+  <div class="container">
+    <section class="my-intro is-medium">
+      <h1 class="intro">My Intro</h1>
       <div>
-        <p>
+        <p class="about">
           Hey! My name is Alan also known as NIASKA. I used this name ever since I was young for whatever kind of alias I had to put it and I thought this would 
           define myself a bit more. I been coding for several years now but I decided to make this platform for you all to view whatever I got my hands on.
-          Aside from my coding I also do modeling. No, not that kind of modeling. I meant Gunpla modeling which you can find all about <span title="Gunpla"><a href="https://niaskaa.github.io/Gunpla-Web/" target="_blank">here! </a></span>
+          Aside from my coding I also do modeling. No, not that kind of modeling. I meant Gunpla modeling which you can find all about on the Other button! </a>
         </p>
       </div>
     </section>
 
-    <!-- project containers-->
-    <section class="page-section" id="work">
-      <h2>Projects</h2>
-      <div class="flex-container">
+    
+    <section class="hero is-medium">
+      <h1 class="intro">My Skills</h1>
+        <div class="progressBars">
+          <span class="skillText">Html</span>
+          <progress class="progress is-small is-link" value="70" max="100">70%</progress>
+          <span class="skillText">CSS</span>
+          <progress class="progress is-small is-danger" value="60" max="100">60%</progress>
+          <span class="skillText">Javascript</span>
+          <progress class="progress is-small is-warning" value="50" max="100">50%</progress>
+          <span class="skillText">Python</span>
+          <progress class="progress is-small is-primary" value="60" max="100">60</progress>      
+        </div>
+    </section>
 
-        <a href="https://github.com/NIASKAA/Discord-Bot" class="flex-item discord-bot">
-          <div>
-            <h3>Discord Bot</h3>
-            <span>A bot that I use for my own discord server</span>
+    <!-- project containers -->
+    <section class="hero">
+      <h1 class="intro">Creations</h1>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                <p class="title"><a href="https://github.com/NIASKAA/Discord-Bot">Discord-Bot</a></p>
+                <figure class="discord">
+                  <img src="assets/images/Discordbot.jpg">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title"><a href=""></a>Fruit Ninja</p>
+                <figure class="fruitNinja">
+                  <img src="assets/images/fruitninja.jpg">
+                </figure>
+              </article>
+            </div>
           </div>
-        </a>
-        
-        <a href="https://github.com/NIASKAA/Fruit-ninja-Python-Style" class="flex-item fruit-ninja">
-          <div>
-            <h3>Fruit Ninja Python Style</h3>
-            <span>A simple Fruit Ninja replica game</span>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger">
+              <p class="title"><a href=""></a>NutriCalifide</p>
+            </article>
           </div>
-        </a>
-
-        <a href="https://github.com/NIASKAA/Python-Password-Generator" class="flex-item password-gen">
-          <div>
-            <h3>Password Generator</h3>
-            <span>A simple password generator made in Python</span>
-          </div>
-        </a>
-
-        <a href="https://scratch.mit.edu/projects/478695372/" class="flex-item scratch">
-          <div>
-            <h3>Scratch Mini Game</h3>
-            <span>A small game made in Scratch</span>
-          </div>
-        </a>
-
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-warning">
+            <p class="title"><a href=""></a>Work Day Scheduler</p>
+          </article>
+        </div>
       </div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me!</h2>
-      <div>
-        <address>
-          <a href="https://github.com/NIASKAA"><img src="assets/images/ghmark.png" alt="My Github" width="250"></a>
-          <a href="mailto:mkman751@yahoo.com"><img src="assets/images/yhm.jpg" alt="My Yahoo Mail" width="250"></a>
-        </address>
+    <section class="hero">
+      <h1 class="intro">Contact Me</h1>
+      <div class="hero is-large">
+        <div class="field">
+          <label class="label">Your Name</label>
+          <div class="control has-icons-left">
+            <input class="input" type="text" placeholder="Insert Name">
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input" type="email" placeholder="Enter Email Address">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Enter Message"></textarea>
+          </div>
+        </div>
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 </body>
-  <footer class="license">
-  <h6> 1996 NIASKA Productions</h5>
-  </footer>
+  <div class="hero-footer">
+    <h6> @ 1996 NIASKA Productions</h5>
+  </div>
 
 </html>

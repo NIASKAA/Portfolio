@@ -1,4 +1,4 @@
-<!DOCTYPE html class="has-navbar-fixed-top">
+<!DOCTYPE html">
 <html lang="en">
 
 <head>
@@ -13,7 +13,7 @@
 
 <body>
   <!-- main logo / nav -->
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
     <div id="navbarHeader" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item">
@@ -25,20 +25,21 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-link">
+          <a class="button is-link" href="#intro">
             My Intro
           </a>
-          <a class="button is-link">
+          <a class="button is-link" href="#skills">
             My Skills
           </a>
-          <a class="button is-link">
+          <a class="button is-link" href="#creation">
             Creation
           </a>
-          <a class="button is-link">
+          <a class="button is-link" href="#contact">
             Contact Me!
           </a>
-          <a class="button is-link">
-            My Github
+          <a class="button" href="https://github.com/NIASKAA">
+            <img src="images/github.jpeg">
+            
           </a>
           <a class="button is-link">
             Other
@@ -62,8 +63,8 @@
   <main class="main-body">
     <!-- quick about info -->
   <div class="container">
-    <section class="my-intro is-medium">
-      <h1 class="intro">My Intro</h1>
+    <section class="my-intro is-medium" id="intro">
+      <h1 class="main-code">My Intro</h1>
       <div>
         <p class="about">
           Hey! My name is Alan also known as NIASKA. I used this name ever since I was young for whatever kind of alias I had to put it and I thought this would 
@@ -74,75 +75,88 @@
     </section>
 
     
-    <section class="hero is-medium">
-      <h1 class="intro">My Skills</h1>
+    <section class="hero is-medium" id="skills">
+      <h1 class="main-code">My Skills</h1>
         <div class="progressBars">
           <span class="skillText">Html</span>
-          <progress class="progress is-small is-link" value="70" max="100">70%</progress>
+          <span class="subSkillText">70%</span>
+          <progress class="progress is-small is-link" value="70" max="100"></progress>
           <span class="skillText">CSS</span>
-          <progress class="progress is-small is-danger" value="60" max="100">60%</progress>
+          <span class="subSkillText">60%</span>
+          <progress class="progress is-small is-danger" value="60" max="100"></progress>
           <span class="skillText">Javascript</span>
-          <progress class="progress is-small is-warning" value="50" max="100">50%</progress>
+          <span class="subSkillText">50%</span>
+          <progress class="progress is-small is-warning" value="50" max="100"></progress>
           <span class="skillText">Python</span>
-          <progress class="progress is-small is-primary" value="60" max="100">60</progress>      
+          <span class="subSkillText">60%</span>
+          <progress class="progress is-small is-primary" value="60" max="100"></progress>      
         </div>
     </section>
 
     <!-- project containers -->
-    <section class="hero">
-      <h1 class="intro">Creations</h1>
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-8">
-          <div class="tile">
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-child notification is-primary">
-                <p class="title"><a href="https://github.com/NIASKAA/Discord-Bot">Discord-Bot</a></p>
-                <figure class="discord">
-                  <img src="assets/images/discordbot.jpg">
-                </figure>
-              </article>
+    <section class="hero" id="creation">
+      <div class="container">
+        <h1 class="main-code">Creations</h1>
+        <div class="tile is-ancestor">
+          <div class="tile is-vertical">
+            <div class="tile">
+              <div class="tile is-parent box">
+                <article class="tile is-child notification is-primary">
+                  <p class="title"><a href="https://github.com/NIASKAA/Discord-Bot">Discord-Bot</a></p>
+                  <p class="subtitle">My own Discord-bot</p>
+                  <figure class="discord">
+                    <img src="assets/images/discordbot.png">
+                  </figure>
+                </article>
+              </div>
+              <div class="tile is-parent box">
+                <article class="tile is-child notification is-info">
+                  <p class="title"><a href=""></a>Fruit Ninja</p>
+                  <p class="subtitle">Mini Fruit Ninja Game on Python</p>
+                  <figure class="fruitNinja">
+                    <img src="assets/images/fruitninja.jpg">
+                  </figure>
+                </article>
+              </div>
+              <div class="tile is-parent box">
+                <article class="tile is-child notification is-warning">
+                  <p class="title"><a href="https://niaskaa.github.io/Work-Day-Scheduler/">Work Day Scheduler</a></p>
+                  <p class="subtitle">An web application that can schedule your day</p>
+                  <figure class="scheduler">
+                    <img src="assets/images/scheduler.png">
+                  </figure>
+                </article>
+              </div>
             </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification is-info">
-                <p class="title"><a href=""></a>Fruit Ninja</p>
-                <figure class="fruitNinja">
-                  <img src="assets/images/fruitninja.jpg">
+            <div class="tile is-parent box is-vertical">
+              <article class="tile is-child notification is-danger">
+                <p class="title"><a href="https://thomasbolling87.github.io/NurtriCalifide/">NutriCalifide</a></p>
+                <p class="subtitle">Your number 1 recipe provider~</p>
+                <figure class="nutriCalifide">
+                  <img src="assets/images/logo.jpeg">
                 </figure>
               </article>
             </div>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification is-danger">
-              <p class="title"><a href=""></a>NutriCalifide</p>
-            </article>
-          </div>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification is-warning">
-            <p class="title"><a href=""></a>Work Day Scheduler</p>
-          </article>
         </div>
       </div>
     </section>
 
     <!-- contact -->
-    <section class="hero">
-      <h1 class="intro">Contact Me</h1>
+    <section class="hero" id="contact">
+      <h1 class="main-code">Contact Me</h1>
       <div class="hero is-large">
-        <div class="field">
+        <form methods="POST" class="field">
           <label class="label">Your Name</label>
           <div class="control has-icons-left">
-            <input class="input" type="text" placeholder="Insert Name">
+            <input class="input name" type="text" placeholder="Insert Name" required>
             <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
             </span>
           </div>
-        </div>
-
-        <div class="field">
           <label class="label">Email</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input" type="email" placeholder="Enter Email Address">
+            <input class="input email" type="email" placeholder="Enter Email Address" required>
             <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
             </span>
@@ -150,24 +164,25 @@
               <i class="fas fa-check"></i>
             </span>
           </div>
-        </div>
-        <div class="field">
           <label class="label">Message</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Enter Message"></textarea>
+            <textarea class="input message" placeholder="Enter Message" required></textarea>
           </div>
-        </div>
-        <div class="field is-grouped">
-          <div class="control">
-            <button class="button is-link">Submit</button>
-          </div>
-        </div>
+          <button type="submit" class="button is-link">Submit</button>
+        </form>
       </div>
     </section>
+    <div class="anime"></div>
   </main>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase.js"></script>
+  <script src="assets/js/firebase.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="/node_module/animejs/lib/anime.min.js"></script>
 </body>
   <div class="hero-footer">
-    <h6> @ 1996 NIASKA Productions</h5>
+    <h6>@ 1996 NIASKA Productions</h5>
   </div>
 
 </html>

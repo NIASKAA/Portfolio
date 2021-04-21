@@ -53,7 +53,7 @@
     <div class="hero-specs">
       <div class="hero-transparent">
         <p class="title-font">
-          Hi! I'm Alan and I'm a full-stack developer. 
+          Hi! I'm Alan and I'm a full-stack developer!
         </p>
       </div>
     </div>
@@ -61,7 +61,6 @@
 
   <main class="main-body">
     <!-- quick about info -->
-  <div class="container">
     <section class="my-intro is-medium" id="intro">
       <h1 class="main-code">My Intro</h1>
       <div>
@@ -94,45 +93,85 @@
 
     <!-- project containers -->
     <section class="hero" id="creation">
+      <h1 class="main-code">Creations</h1>
       <div class="container">
-        <h1 class="main-code">Creations</h1>
+
         <div class="tile is-ancestor">
-          <div class="tile is-vertical">
-            <div class="tile">
-              <div class="tile is-parent box">
-                <article class="tile is-child notification is-primary">
-                  <p class="title"><a href="https://github.com/NIASKAA/Discord-Bot">Discord-Bot</a></p>
-                  <p class="subtitle">My own Discord-bot</p>
-                  <figure class="discord">
-                    <img src="assets/images/discordbot.png">
-                  </figure>
-                </article>
-              </div>
-              <div class="tile is-parent box">
-                <article class="tile is-child notification is-info">
-                  <p class="title"><a href=""></a>Fruit Ninja</p>
-                  <p class="subtitle">Mini Fruit Ninja Game on Python</p>
-                  <figure class="fruitNinja">
-                    <img src="assets/images/fruitninja.jpg">
-                  </figure>
-                </article>
-              </div>
-              <div class="tile is-parent box">
-                <article class="tile is-child notification is-warning">
-                  <p class="title"><a href="https://niaskaa.github.io/Work-Day-Scheduler/">Work Day Scheduler</a></p>
-                  <p class="subtitle">An web application that can schedule your day</p>
-                  <figure class="scheduler">
-                    <img src="assets/images/scheduler.png">
-                  </figure>
-                </article>
-              </div>
+          <div class="tile is-4 is-parent is-vertical">
+            <div class="tile is-parent notification is-primary">
+              <article class="tile is-child">
+                <h1 class="title">
+                  Discord
+                </h1>
+                <p class="subtitle">Discord-Bot in my server</p>
+                <hr>
+                <figure class="discord">
+                  <img src="assets/images/discordbot.png">
+                </figure>
+              </article>
             </div>
-            <div class="tile is-parent box is-vertical">
-              <article class="tile is-child notification is-danger">
-                <p class="title"><a href="https://thomasbolling87.github.io/NurtriCalifide/">NutriCalifide</a></p>
-                <p class="subtitle">Your number 1 recipe provider~</p>
-                <figure class="nutriCalifide">
+            <div class="tile is-parent notification is-warning">
+              <article class="tile is-child">
+                <p class="title">
+                  Fruit Ninja
+                </p>
+                <p class="subtitle">
+                  A python Fruit Ninja game
+                </p>
+                <hr>
+                <figure class="img">
+                  <img src="assets/images/fruitninja.jpg">
+                </figure>
+              </article>
+            </div>
+          </div>
+
+          <div class="tile is-4 is-parent is-vertical">
+            <div class="tile is-parent notification is-link">
+              <article class="tile is-child">
+                <p class="title">
+                  NutriCalifide
+                </p>
+                <p class="subtitle">
+                  Your Number 1 recipe provider~
+                </p>
+                <hr>
+                <figure class="img">
                   <img src="assets/images/logo.jpeg">
+                </figure>
+                <div class="content">
+
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="tile is-4 is-parent is-vertical">
+            <div class="tile is-parent notification is-danger">
+              <article class="tile is-child">
+                <p class="title">
+                  Day Scheduler
+                </p>
+                <p class="subtitle">
+                  Web Application to schedule your day
+                </p>
+                <hr>
+                <figure class="img image is-inline-block">
+                  <img src="assets/images/scheduler.png">
+                </figure>
+              </article>
+            </div>
+            <div class="tile notification is-success">
+              <article class="tile is-child">
+                <p class="title">
+                  Other
+                </p>
+                <p class="subtitle">
+                  Work in Progress~
+                </p>
+                <hr>
+                <figure class="other">
+                  <img src="">
                 </figure>
               </article>
             </div>
@@ -141,10 +180,9 @@
       </div>
     </section>
 
-    <!-- contact -->
-    <section class="hero" id="contact">
+  <!-- contact -->
+    <div class="contact-form" id="contact">
       <h1 class="main-code">Contact Me</h1>
-      <div class="hero is-large">
         <form methods="POST" class="field">
           <label class="label">Your Name</label>
           <div class="control has-icons-left">
@@ -169,8 +207,7 @@
           </div>
           <button type="submit" class="button subBtn is-link">Submit</button>
         </form>
-      </div>
-    </section>
+    </div>
     <button onclick="topFunction()" class="button is-link" id="topBtn">Back to Top</button>
   </main>
   <script src="https://smtpjs.com/v3/smtp.js"></script>

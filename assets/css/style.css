@@ -71,6 +71,15 @@
   float: right;
 }
 
+.subBtn {
+  top: 10px;
+}
+
+#topBtn {
+  float: right;
+  right: -46px;
+  top: -2px;
+}
 
 @media screen and (max-width: 980px) {
   header {

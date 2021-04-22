@@ -67,12 +67,13 @@
 }
 
 .subBtn {
-  top: 10px;
+  top: 8px;
 }
 
 #topBtn {
   float: right;
   top: -2px;
+  left: -5px; 
 }
 
 .hero-footer {

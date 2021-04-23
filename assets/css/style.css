@@ -65,6 +65,15 @@
   height: 200px;
   object-fit: cover;
 }
+.ohno {
+  width: 760px;
+}
+
+.yikes {
+  width: 760px;
+  height: 270px;
+  padding-top: 10px;
+}
 
 .subBtn {
   top: 8px;

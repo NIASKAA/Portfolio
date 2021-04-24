@@ -3,4 +3,4 @@ A work in progress portfolio as I learn. This portfolio is very prototype with l
 
 Link to website: https://niaskaa.github.io/Portfolio/
 
-![alt text](screenshot/screenshot.png "Demo Image")
+![alt text](screenshot/Demo1.png "Demo Image")

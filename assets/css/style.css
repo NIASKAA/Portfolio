@@ -3,8 +3,6 @@
 }
 
 .hero-specs {
-  height: 100vh;
-  width: 100vw;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
@@ -28,6 +26,27 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.backgroundImg {
+  background-image: url("/images/background.jpg");
+  min-height: 100%;
+}
+
+.backgroundImg1 {
+  background-image: url("/images/background2.jpg");
+  min-height: 400px;
+}
+
+.backgroundImg2 {
+  background-image: url("/images/background3.jpeg");
+  min-height: 400px;
+}
+
+.backgroundImg3 {
+  background-image: url("/images/background4.jpg");
+  min-height: 400px;
+}
+
 .main-body {
   font-family: "Michroma", "serif";
 }
@@ -91,6 +110,12 @@
 
 @media only screen and (max-device-width: 1366px) {
   .hero-specs {
+    background-attachment: scroll;
+  }
+}
+
+@media(max-width: 568px){
+  .backgroundImg, .backgroundImg1, .backgroundImg2, .backgroundImg3{
     background-attachment: scroll;
   }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A work in progress portfolio as I learn. This portfolio is very prototype with limited knowledge of how everything works. Of course with that being said, this page will look 100% better by the end of my venture in this education. This portfolio is also linked to my other working in progress portfolio for my hobby. That page is also work in progress as I need better camera gear. Readme page will be constantly updated.",
+  "main": "index.js",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIASKAA/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NIASKAA/Portfolio/issues"
+  },
+  "homepage": "https://github.com/NIASKAA/Portfolio#readme"
+}

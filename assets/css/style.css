@@ -50,9 +50,14 @@
 .main-body {
   font-family: "Michroma", "serif";
 }
+
 .title-font {
   font-size: 320%;
   font-family: "Michroma", "serif";
+}
+
+.about {
+  color: white;
 }
 
 .main-code{ 
@@ -61,14 +66,23 @@
 
 .about{
   font-size: 15px;
+  text-align: center;
+  min-height: 60px;
 }
+
 
 .skillText {
   font-size: 15px;
+  color: white;
 }
 
 .subSkillText {
   float: right;
+  color: white;
+}
+
+.progressContainers {
+  min-height: 240px;
 }
 
 .progressBars {
@@ -78,12 +92,17 @@
 .field {
   width: 30%;
 }
+
+.tileBorder {
+  min-height: 760px;
+}
 /* portfolio project images */
 .discord {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
+
 .ohno {
   width: 760px;
 }
@@ -94,18 +113,20 @@
   padding-top: 10px;
 }
 
-.subBtn {
-  top: 8px;
-}
-
-#topBtn {
-  float: right;
-  top: -2px;
-  left: -5px; 
-}
-
 .hero-footer {
   text-align: center;
+}
+
+.text2 {
+  color: white;
+}
+
+.section-grey {
+  background-color: #282e34;
+}
+
+#textArea {
+  width: 572px;
 }
 
 @media only screen and (max-device-width: 1366px) {

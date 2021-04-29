@@ -13,22 +13,23 @@
 </head>
 
 <body>
-  <!--Implement a cover page animation-->
-  <!-- main logo / nav -->
-  <!--Navbar needs to be responsive-->
-  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-    <div id="navbarHeader" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item">
-          Alan/NIASKA
-        </a>
-      </div>
-    </div>
+<main>
+  <section class="intro">
+    <nav>
+      <ul class="nav-links">
+        <li>About</li>
+        <li>Skills</li>
+        <li>Creation</li>
+        <li>Contact</li>
+        <li>Github</li>
+        <li>Resume</li>
+      </ul>
+    </nav>
+    <h1 class="title-font">Hi! I'm Alan and I'm a full-stack developer!</h1>
+  </section>
+</main>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-link" href="#intro">
+<!-- <a class="button is-link" href="#intro">
             My Intro
           </a>
           <a class="button is-link" href="#skills">
@@ -48,21 +49,24 @@
           </a>
           <a class="button is-link" href="/assets/Resume.pdf" download rel="noopener noreferrer" target="_blank">
             Resume
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-    
-  <!-- background photo -->
-    <div class="hero-specs backgroundImg">
-      <div class="hero-transparent">
-        <p class="title-font">
-          Hi! I'm Alan and I'm a full-stack developer!
-        </p>
+          </a>-->
+
+    <div class="coverPage">
+      <div class="coverPageText">
+        <h1 class="hide">
+          <span class="cText">Try</span>
+        </h1>
+        <h1 class="hide">
+          <span class="cText">Try</span>
+        </h1>
+        <h1 class="hide">
+          <span class="cText">Again</span>
+        </h1>
       </div>
     </div>
 
+    <div class="slider"></div>
+  
     <!-- quick about info -->
     <section class="my-intro is-medium section-grey" id="intro">
       <h1 class="main-code">My Intro</h1>
@@ -253,9 +257,11 @@
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase.js"></script>
   <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="></script>
+  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" 
+  integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="crossorigin="anonymous"></script>
   <script src="assets/js/firebase.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/styling.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </body>
 </html>

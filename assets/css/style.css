@@ -74,7 +74,6 @@ nav {
   display: inline-block;
 }
 
-
 .backgroundImg, .backgroundImg1, .backgroundImg2, .backgroundImg3 {
   position: relative;
   opacity: 0.7;
@@ -161,6 +160,7 @@ nav {
 
 .text2 {
   color: white;
+  font-size: 25px;
 }
 
 .section-grey {

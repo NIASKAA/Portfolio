@@ -7,6 +7,7 @@
 .intro {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
+  background-attachment: fixed;
   background-size: cover;
 }
 

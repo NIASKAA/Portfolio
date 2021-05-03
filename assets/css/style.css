@@ -163,24 +163,26 @@ nav {
   width: 30%;
 }
 
-.tileBorder {
-  min-height: 760px;
-}
-/* portfolio project images */
-.discord {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+.aboutPage {
+  color: white;
 }
 
-.ohno {
-  width: 760px;
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.yikes {
-  width: 760px;
-  height: 270px;
-  padding-top: 10px;
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100px;
 }
 
 .hero-footer {

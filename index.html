@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
   <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
@@ -106,32 +107,19 @@
     </div>
 
     <!-- project containers -->
-  
-    <section class="section-grey">
-      <div class="aboutPage">
-        For more information on these projects, click <a href="about.html">here.</a>
+  <section class="section-grey">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url(/assets/images/discordbot.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/assets/images/scheduler.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/assets/images/amiibo.png)"></div>
+        <div class="swiper-slide" style="background-image:url(/assets/images/logo.jpeg)"></div>
+        <div class="swiper-slide" style="background-image:url(/assets/images/demo.png)"></div>
       </div>
-      <div class="swiper-container creationSwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="assets/images/discordbot.png"/>
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/amiibo.png">
-          </div>
-          <div classs="swiper-slide">
-            <img src="assets/images/logo.jpeg">
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/demo.png">
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/scheduler.png">
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
     
   <!--Implement of next photo-->
   <div class="hero-specs backgroundImg3">
@@ -178,7 +166,8 @@
         <button onclick="topFunction()" class="button is-link" id="topBtn">Back to Top</button>
     </div>
   </section>  
-
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase.js"></script>
   <script
@@ -188,6 +177,6 @@
   <script src="assets/js/script.js"></script>
   <script src="assets/js/styling.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
 </body>
 </html>

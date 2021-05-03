@@ -27,3 +27,20 @@ const navButton = () => {
 }
 
 navButton();
+
+var swiper = new swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifer: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    }
+});

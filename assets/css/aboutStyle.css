@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    background: #282e34;
+  
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+  
+}
+
+  .nav-links ul {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+  
+.section-grey {
+    background-color: #282e34;
+  }

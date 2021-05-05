@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.intro {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
   nav {
     display: flex;
     justify-content: space-between;
@@ -30,7 +37,41 @@
     letter-spacing: 2px;
     font-weight: bold;
 }
+
+.logo {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.title-font {
+  font-size: 320%;
+  font-family: "Michroma", "serif";
+  position: absolute;
+  align-items: center;
+  top: 45%;
+  left: 30%;
+  color: white;
+}
+
+.main-code{ 
+  font-size: 30px;
+  color: white; 
+} 
   
 .section-grey {
     background-color: #282e34;
   }
+
+.card {
+  width: 300px;
+  height: 350px;
+}
+
+.images img{
+  float: right;
+  border-radius: 7px;
+  width: 250px;
+  height: 250px;
+}
